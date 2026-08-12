@@ -17,12 +17,9 @@ export const Hero = () => {
           Diseño moderno, entrega rápida y soporte real. Convertimos tu
           emprendimiento en una web profesional lista para vender.
         </p>
-        <div className="flex flex-col sm:flex-row items-center gap-4 justify-center sm:justify-start">
+        <div className="flex justify-center sm:justify-start">
           <Link href="#" className="btn-primary text-center">
             Cotiza tu proyecto
-          </Link>
-          <Link href="#" className="btn-secondary text-center">
-            Ver proyectos
           </Link>
         </div>
       </div>
