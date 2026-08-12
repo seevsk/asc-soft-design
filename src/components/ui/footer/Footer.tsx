@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="flex w-full justify-center text-xs mb-10">
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 w-full text-center text-xs mb-10 px-5">
       <Link href="/">
         <span className={`${titleFont.className} antialiased font-bold`}>
           ASC SoftDesign
@@ -11,12 +11,8 @@ export const Footer = () => {
         <span> | Software </span>
         <span>© {new Date().getFullYear()}</span>
       </Link>
-      <Link href="/" className="mx-3">
-        Terminos & Condiciones
-      </Link>
-      <Link href="/" className="mx-3">
-        Nosotros
-      </Link>
+      <Link href="/">Terminos & Condiciones</Link>
+      <Link href="/">Nosotros</Link>
     </div>
   );
 };
